@@ -7,12 +7,13 @@ export default function App() {
   return (
     <div className="App">
       <h1>Calculadoras </h1>
-      <div className="btnTelas">
+      <div className="btnTelas"> 
         <button onClick={() => setTela("Tela1")}>Tela 1</button>
         <button onClick={() => setTela("Tela2")}>Tela 2</button>
         <button onClick={() => setTela("Tela3")}>Tela 3</button>
       </div>
       <Rotas rota={tela} />
+      <h1>ola</h1>
     </div>
   );
 }
